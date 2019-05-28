@@ -1,0 +1,267 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body
+{
+	font-family: 'Open Sans';
+	padding: 0;
+	margin: 0;
+	background: #B189BE;
+
+}
+
+nav{
+	width: auto;
+	display: block;
+	height: 40px;
+	background-color:#9449A0;
+	padding-top: 20px;
+}
+
+nav a
+{
+	font-weight:bold;
+	text-decoration: none;
+	color: black ;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.content
+{
+	margin-left: 10px;
+}
+
+h1
+{
+	margin: 0 auto;
+	background-color: red;
+	color: black;
+	margin-bottom: 100px;
+	display:block;
+	border:3px solid #000;
+}
+
+img{
+width: 580px;
+height: 390px;
+margin-top: -195px;
+margin-left: -290px;
+left: 50%;
+top: 50%;
+position: absolute;
+}
+
+article
+{
+	margin: 0 auto;
+	margin-top: -80px;
+	position: absolute;
+	display:block;
+	border:5px solid #000;
+	left: 36%;
+	background:#9449A0;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px
+}
+.boton 
+{
+	margin-left: 65px;
+	background: rgba(0,0,0,0);
+ 	color: #3a7999;
+ 	box-shadow: inset 0 0 0 3px #3a7999;
+	
+	border: none;
+ 	background: #3a7999;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+				
+}
+.boton2
+{
+	margin-left: 0px;
+	background: rgba(0,0,0,0);
+ 	color: #3a7999;
+ 	box-shadow: inset 0 0 0 3px #3a7999;
+	
+	border: none;
+ 	background: #3a7999;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+				
+}
+
+.boton:hover
+{
+ background:white;
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.boton2:hover
+{
+ background:white;
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+.rubro1 
+{
+	margin-left: 53px;
+}
+.rubro2 
+{
+	margin-left: 90px;
+}
+.cambio
+{
+ 	color: #000000;
+ 	padding: 10px;
+ 	transition: all 500ms ease;
+}
+.cambio:hover
+{
+ 	color: #F0FF00;
+}
+
+.normal 
+{
+  width: 250px;
+  border: 1px solid #000;
+}
+.normal th, .normal td 
+{
+  border: 1px solid #000;
+  background-color: #E26987;
+  font-size: 15px;
+  padding: 25px;
+}
+.productos
+{
+	width: 250px;
+  border: 1px solid #000;
+}
+.productos th, .productos td 
+{
+  border: 1px solid #000;
+  background-color: #E26987;
+  font-size: 16px;
+  padding: 25px;
+}
+.newproducto, .p
+{
+	padding-left: 60px;
+	padding-right: 10px;
+	font-size: 20px; 
+}
+.codig 
+{
+	margin-left: -7px;
+}
+.product
+{
+	margin-left: -26px;
+}
+.desc
+{
+	margin-left: -50px;
+}
+.botonnuevo
+{
+	margin-left: 30px;
+}
+.botonnuevo 
+{
+	margin-left: 5px;
+	background: rgba(0,0,0,0);
+ 	color: #3a7999;
+ 	box-shadow: inset 0 0 0 3px #3a7999;
+	
+	border: none;
+ 	background: #3a7999;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+				
+}
+.botonnuevo2
+{
+	margin-left: 0px;
+	background: rgba(0,0,0,0);
+ 	color: #3a7999;
+ 	box-shadow: inset 0 0 0 3px #3a7999;
+	
+	border: none;
+ 	background: #3a7999;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+				
+}
+
+.botonnuevo:hover
+{
+ background:white;
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.botonnuevo2:hover
+{
+ background:white;
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.top
+{
+	margin-top: -90px;
+}
+
+.cantidad
+{
+	margin-left: -20px;
+}
+
+.botonitems 
+{
+	margin-left: 120px;
+	margin-top: -10px;
+}
+.items 
+{
+	padding-left: 60px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+}
+.tablaventas th, .tablaventas td 
+{
+  border: 1px solid #000;
+  background-color: #E26987;
+  font-size: 16px;
+  padding: 25px;
+}
+.tablaventas th, .tablaventas td 
+{
+  border: 1px solid #000;
+  background-color: #E26987;
+  font-size: 16px;
+  padding: 50px;
+}
